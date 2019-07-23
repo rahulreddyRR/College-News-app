@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#35464e</color>
+    <color name="colorPrimaryDark">#314047</color>
+    <color name="colorAccent">#E91E63</color>
+
+<!--
+    <color name="colorPrimary">#303F9F</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="colorAccent">#ff4221</color>
+    -->
+<!--
+
+    <color name="colorPrimary">#1c2587</color>
+    <color name="colorPrimaryDark">#182173</color>
+    <color name="colorAccent">#ff4221</color>
+-->
+
+    <color name="cardBackgroundColor">#ffffff</color>
+    <color name="dividerColor">#dedede</color>
+    <color name="mainBackground">#dcdcdc</color>
+
+    <!--<color name="navDrawerBackground">@color/md_white_1000</color>-->
+
+    <color name="colorPostPrimary">#E91E63</color>
+    <color name="colorPostPrimaryDark">#C2185B</color>
+    <color name="colorPostAccent">#546E7A</color>
+
+    <color name="colorScorePrimary">#0f0825</color>
+    <color name="colorScorePrimaryDark">#101010</color>
+    <color name="colorScoreAccent">#008442</color>
+
+
+
+    <color name="colorPurple700">#512DA8</color>
+    <color name="colorPink600">#E91E63</color>
+    <color name="colorRed600">#F44336</color>
+    <color name="colorTeal900">#001b28</color>
+    <color name="colorOrange600">#FB8C00</color>
+    <color name="colorGrey700">#388E3C</color>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#545454</color>
+    <color name="colorPrimaryDark">#414141</color>
+    <color name="colorAccent">#1088ff</color>
+
+    <color name="cardBackgroundColor">#464646</color>
+    <color name="dividerColor">#3b3b3b</color>
+    <color name="mainBackground">#262626</color>
+
+    <!--<color name="navDrawerBackground">@color/md_white_1000</color>-->
+
+    <color name="colorPostPrimary">#545454</color>
+    <color name="colorPostPrimaryDark">#414141</color>
+    <color name="colorPostAccent">#1088ff</color>
+
+</resources>

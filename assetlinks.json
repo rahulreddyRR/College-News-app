@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.sportshunt.app",
+    "sha256_cert_fingerprints":
+    ["47:98:39:97:6E:EB:D8:79:70:D7:26:4C:9C:E8:D8:0C:C6:B1:49:10:0D:E7:74:3D:5A:2D:6C:E7:D8:7A:9A:4D"]
+  }
+}]

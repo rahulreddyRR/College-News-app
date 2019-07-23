@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rahul.newsdroid">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
+    <application
+        android:name="com.rahul.newsdroid.SportsHunt"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="com.rahul.newsdroid.ActivitySplash"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivityHome"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/HomeTheme" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivityLogin"
+            android:screenOrientation="portrait"
+            android:theme="@style/AccountTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivityPostNews"
+            android:label="Create New Post"
+            android:parentActivityName="com.rahul.newsdroid.ActivityHome"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivitySignUp"
+            android:screenOrientation="portrait"
+            android:theme="@style/AccountTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivityAccount"
+            android:screenOrientation="portrait"
+            android:theme="@style/AccountTheme"
+            android:windowSoftInputMode="adjustNothing|stateHidden" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivityComments"
+            android:parentActivityName="com.rahul.newsdroid.ActivityHome"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivityPost"
+            android:parentActivityName="com.rahul.newsdroid.ActivityHome"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivityCategory"
+            android:label="Categories"
+            android:parentActivityName="com.rahul.newsdroid.ActivityHome"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivityAbout"
+            android:label="About App"
+            android:parentActivityName="com.rahul.newsdroid.ActivityHome"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivityHotNews"
+            android:label="Hot News!"
+            android:screenOrientation="portrait"
+            android:theme="@style/HotPostTheme" />
+
+        <service android:name="com.rahul.newsdroid.Notification.NotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.rahul.newsdroid.ActivityInternet"
+            android:label="No Internet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivityIntro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivityHomeCategory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rahul.newsdroid.ActivitySearch"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.rahul.newsdroid.Notification.NotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notifications_none_white_24dp" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/ScoreTheme"
+            android:label="Live Updates"
+            android:name="com.rahul.newsdroid.ActivityScore" />
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.rahul.newsdroid.ActivityPostScore" />
+
+    </application>
+
+</manifest>

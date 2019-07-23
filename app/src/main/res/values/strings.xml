@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Dont touch this section -->
+    <string name="app_name">College News</string>
+    <string name="title_activity_home">College News</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- All App String Information -->
+    <string name="pass_hint">Your Password…</string>
+    <string name="email_hint">Your Email…</string>
+    <string name="login_btn_text">Login to account</string>
+    <string name="login_reg_btn_text">Need a new Account?</string>
+    <string name="reg_btn_text">Create new Account</string>
+    <string name="reg_login_text">Already have an Account?</string>
+    <string name="reg_confirm_pass_text">Confirm Password…</string>
+    <string name="setup_name_hint_text">Your Name…</string>
+    <string name="setup_btn_name_text">Save Account Settings</string>
+    <string name="post_title_hint">Post Title…</string>
+    <string name="post_desc_hint">Post Description…</string>
+    <string name="new_post_btn_hint">Post Blog</string>
+
+    <string name="about_desc">Rahul News is a college News App raised from young brains who are constantly working on media updation. Through this app we aim to bring latest sports news instantly into your palm!\n\nWe partnered with various media and news resources to get the full potential of the news and bring it right infront of you. Hope you are enjoying the app!</string>
+    <string name="sample_desc">Lorem ipsum dolor sit amet, soluta regione urbanitas vis in, qui elit populo ut.\nThe sun oluta regione urbanitas vis in, qui elit populse sun oluta regione urbanitas vis in, qui elit populo ut. The sun oluta regione urbanitas vis in, qui elit populse sun oluta regione urbanitas vis in, qui elit populo yoawc.\n\nThe sun oluta regione urbanitas vis in, qui elit populse sun oluta regione urbanitas vis in, qui elit populo utaso. Thanks!</string>
+    <string name="blog_thumbnail">blog_thumbnail</string>
+    <string name="username">Username</string>
+    <string name="loading_comment">Loading Comment…</string>
+    <string name="your_comment_here">Your Comment here…</string>
+    <string name="user_image">User Image</string>
+    <string name="comments">Comments:</string>
+    <string name="loading_category">Loading Category</string>
+    <string name="loading_date">Loading Date</string>
+    <string name="title_is_loading">Title is loading…</string>
+    <string name="categories">Categories</string>
+    <string name="home">My Home</string>
+    <string name="more_info">More Info</string>
+    <string name="about_app">About App</string>
+    <string name="share_app">Share App</string>
+    <string name="give_a_star">Give A Star</string>
+    <string name="settings">All Settings</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="settings_desc">Personalise the app settings</string>
+    <string name="auto_night_mode">Auto Night Mode</string>
+    <string name="receive_push_notifications">Receive Push Notifications</string>
+    <string name="font_small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="text_size">Post font size:</string>
+    <string name="font_normal">Normal</string>
+    <string name="font_large">Large</string>
+    <string name="exit_app">Exit App</string>
+    <string name="user_account">User Account</string>
+    <string name="expand_list">Expand List</string>
+    <string name="more_post_cat">See more posts from Football</string>
+
+    <string name="loading">Loading…</string>
+    <string name="img_note_clipboard_paste">Clipboard Paste</string>
+    <string name="new_post_send_notify">Send Notification to Users</string>
+    <string name="todo">TODO</string>
+    <string name="no_internet_desc">Seems like you haven\'t connected to proper Internet. Please double check it!</string>
+    <string name="no_internet_title">Oops! No Internet!</string>
+    <string name="retry">RETRY</string>
+    <string name="category">Category</string>
+    <string name="facebook">Facebook</string>
+    <string name="search">Search</string>
+
+    <string name="default_notification_channel_id" translatable="false">sportshunt_channel</string>
+
+    <string name="paste_youtube_video_url">Paste YouTube video url</string>
+    <string name="score_team_stats">TEAM STATS</string>
+    <string name="score_corners">Corners</string>
+    <string name="score_offsides">Offsides</string>
+    <string name="score_red_cards">Red cards</string>
+    <string name="score_yellow_cards">Yellow cards</string>
+    <string name="score_fouls">Fouls</string>
+    <string name="score_pass_accuracy">Pass accuracy</string>
+    <string name="score_passes">Passes</string>
+    <string name="score_possession">Possession</string>
+    <string name="score_shots_on_target">Shots on target</string>
+    <string name="score_shots">Shots</string>
+    <string name="upload_changes">Upload Changes</string>
+
+</resources>

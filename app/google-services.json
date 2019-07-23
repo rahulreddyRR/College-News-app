@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1020713367914",
+    "firebase_url": "https://newsdroid-app-demo.firebaseio.com",
+    "project_id": "newsdroid-app-demo",
+    "storage_bucket": "newsdroid-app-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020713367914:android:c3d2f6e4d6b4a617",
+        "android_client_info": {
+          "package_name": "com.rahul.newsdroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020713367914-batv00t501ims70m0fk365qbmgcfflto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rahul.newsdroid",
+            "certificate_hash": "c8a91866f41352758cf9f9264bdd0793a73281dc"
+          }
+        },
+        {
+          "client_id": "1020713367914-5f0e4qud7pi0h13drreiude0ce8mn13r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgwEyzVs0lmYrO-CcGYGidnR62-7KgTmM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020713367914-5f0e4qud7pi0h13drreiude0ce8mn13r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

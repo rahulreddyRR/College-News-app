@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/dialog_font_small"
+        android:orderInCategory="100"
+        android:title="@string/font_small"/>
+    <item
+        android:orderInCategory="100"
+        android:title="@string/font_normal"/>
+    <item
+        android:id="@+id/dialog_font_large"
+        android:orderInCategory="100"
+        android:title="@string/font_large"/>
+
+</menu>
